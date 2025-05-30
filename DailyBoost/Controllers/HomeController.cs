@@ -1,5 +1,4 @@
 using System.Diagnostics;
-using DailyBoost.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DailyBoost.Controllers
