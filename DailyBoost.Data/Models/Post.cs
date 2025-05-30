@@ -12,5 +12,12 @@ namespace DailyBoost.Data.Models
         public int NrOfReports { get; set; }
         public DateTime DateCreated { get; set; }
         public DateTime DateUpdated { get; set; }
+
+
+        // Foreign key
+        public int UserId { get; set; }
+
+        //Navigation properties
+        public User User { get; set; }
     }
 }
