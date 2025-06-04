@@ -7,7 +7,7 @@ using DailyBoost.Data.Models;
 using DailyBoost.Data;
 using Microsoft.EntityFrameworkCore;
 
-namespace CircleApp.Data.Helpers
+namespace DailyBoost.Data.Helpers
 {
     public static class DbInitializer
     {
